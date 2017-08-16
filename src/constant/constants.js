@@ -1,0 +1,27 @@
+/* 
+ * Hotels 
+ */
+
+// Login
+export const AUTH_LOGIN_SUBMIT  = 'AUTH_LOGIN_SUBMIT' 
+export const AUTH_LOGIN_SUCCESS = 'AUTH_LOGIN_SUCCESS' 
+export const AUTH_LOGIN_FAILURE = 'AUTH_LOGIN_FAILURE' 
+// Logout
+export const AUTH_LOGOUT = 'AUTH_LOGOUT' 
+// Register
+export const AUTH_REGISTER_SUBMIT  = 'AUTH_REGISTER_SUBMIT'
+export const AUTH_REGISTER_SUCCESS = 'AUTH_REGISTER_SUCCESS'
+export const AUTH_REGISTER_FAILURE = 'AUTH_REGISTER_FAILURE'
+
+/* 
+ * Hotels 
+ */
+
+// create new hotel
+export const HOTEL_CREATE_REQUESTED = 'HOTEL_CREATE_REQUESTED' 
+export const HOTEL_CREATE_SUCCESS   = 'HOTEL_CREATE_SUCCESS' 
+export const HOTEL_CREATE_FAILURE   = 'HOTEL_CREATE_FAILURE'
+// get the hotel for a specific vendor
+export const FETCH_HOTELS_REQUESTED = 'FETCH_HOTELS_REQUESTED' 
+export const FETCH_HOTELS_SUCCESS   = 'FETCH_HOTELS_SUCCESS' 
+export const FETCH_HOTELS_FAILURE   = 'FETCH_HOTELS_FAILURE' 
